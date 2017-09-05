@@ -4,7 +4,7 @@ metadata:
   name: data-volume-INST
 spec:
   capacity:
-    storage: 10Gi
+    storage: 5Gi
   accessModes:
     - ReadWriteOnce
   persistentVolumeReclaimPolicy: Retain
@@ -12,4 +12,3 @@ spec:
   gcePersistentDisk:
     fsType: xfs
     pdName: pd-ssd-disk-INST
-
